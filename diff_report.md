@@ -38,7 +38,7 @@ Line 169 - 171:
 ```
 Line 184 - 186:
 ```c
-    #if defined CS333_PROJECT && defined PRINT_SYSCALLS
+    #if defined CS333_P1 && defined PRINT_SYSCALLS
     cprintf("%s -> %d\n", syscallnames[num], curproc->tf->eax);
     #endif
 ```
