@@ -104,7 +104,7 @@ sys_getgid(void)
 uint
 sys_getppid(void)
 {
-  if(!myproc()->parent){ // check if parent is null
+  if(!myproc()->parent){
     return myproc()->pid;
   }
   return myproc()->parent->pid;
