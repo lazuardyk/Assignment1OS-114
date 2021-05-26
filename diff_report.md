@@ -253,12 +253,12 @@ getprocs(uint max, struct uproc* table)
       table[index].size = p->sz;
       safestrcpy(table[index].state, states[p->state], sizeof(table[index]).state);
       safestrcpy(table[index].name, p->name, sizeof(table[index]).name);
-      i++;
+      index++;
     }
   }
   release(&ptable.lock);
 
-  return i;
+  return index;
 }
 #endif
 ```
