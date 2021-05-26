@@ -301,9 +301,9 @@ main(void)
   procs = getprocs(max, table);
   
   if(procs == -1)
-    printf(1, "\nError: Invalid Maximum/Null Uproc\n");
+    printf(1, "Error: Invalid Maximum/Null Uproc\n");
   else {
-    printf(1, "\nPID\tName\tUID\tGID\tPPID\tElapsed\tCPU\tState\tSize");
+    printf(1, "PID\tName\tUID\tGID\tPPID\tElapsed\tCPU\tState\tSize");
     for(index = 0; index < procs; ++index) {
       decimal = table[index].elapsed_ticks % 1000;
       elapsed = table[index].elapsed_ticks / 1000;
