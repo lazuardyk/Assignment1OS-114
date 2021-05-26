@@ -1,6 +1,6 @@
 # Code Modification
 
-Kode-kode yang diubah di dalam XV6:
+Kode-kode yang diubah di dalam XV6 pada Project 2:
 ## - Makefile  
 
 Line 3:
