@@ -3,3 +3,5 @@
 - Nama: Lazuardy Khatulistiwa
 - NIM: 1313618008
 - Prodi: Ilmu Komputer 2018
+
+
